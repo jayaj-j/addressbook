@@ -153,6 +153,15 @@
 			<artifactId>xml-security-impl</artifactId>
 			<version>1.0</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.sun/tools -->
+		<dependency>
+			<groupId>com.sun</groupId>
+			<artifactId>tools</artifactId>	
+			<version>1.8</version>
+			<scope>system</scope>
+		</dependency>
+
 
 
 		</dependencies>
@@ -371,12 +380,6 @@
                                 <groupId>com.edurekademo.tutorial</groupId>
                                 <artifactId>addressbook</artifactId>
                                 <version>${project.version}</version>
-								<exclusions>
-									<exclusion>
-										<artifactId>tools</artifactId>
-										<groupId>com.sun</groupId>
-									</exclusion>
-								</exclusions>
                             </dependency>
                         </dependencies>
                     </plugin>
@@ -416,12 +419,6 @@
                                 <groupId>com.edurekademo.tutorial</groupId>
                                 <artifactId>addressbook</artifactId>
                                 <version>${project.version}</version>
-								<exclusions>
-									<exclusion>
-										<artifactId>tools</artifactId>
-										<groupId>com.sun</groupId>
-									</exclusion>
-								</exclusions>
                             </dependency>
                         </dependencies>
                     </plugin>
